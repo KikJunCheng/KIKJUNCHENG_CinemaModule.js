@@ -448,6 +448,7 @@ const cinemaFunctions = {
                     Math.cos(cinemaLat) *
                     Math.sin(differenceLon / 2) ** 2;
 
+                //calculate an angle in radians using 2 values
                 let c = 2 * Math.atan2(
                     Math.sqrt(a),
                     Math.sqrt(1 - a)
@@ -584,16 +585,16 @@ const cinemaFunctions = {
 
             let consecutive = true;
 
-            for (let j = 0; j < pax - 1; j++) {
+            for (let j = 0; j < pax - 1; j++) { //must be more than 1 to run this loop 
 
-                let currentSeat = vacantSeats[i + j].seatNo;
-                let nextSeat = vacantSeats[i + j + 1].seatNo;
+                let currentSeat = vacantSeats[i + j].seatNo;  // vacantSeats[0+0] => A1
+                let nextSeat = vacantSeats[i + j + 1].seatNo; // vacantSeats[0+0+1] => vacantSeats[1] can be A3
 
-                let currentNo = parseInt(currentSeat.substring(1));
+                let currentNo = parseInt(currentSeat.substring(1)); // e.g. A1 => 1
                 let nextNo = parseInt(nextSeat.substring(1));
 
                 if (
-                    currentSeat.substring(0, 1) !== nextSeat.substring(0, 1) ||
+                    currentSeat.substring(0, 1) !== nextSeat.substring(0, 1) || //A != B && 3 != 1+1
                     nextNo !== currentNo + 1
                 ) {
                     consecutive = false;
