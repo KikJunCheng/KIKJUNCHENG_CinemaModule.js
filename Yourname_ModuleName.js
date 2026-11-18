@@ -7,6 +7,10 @@ const cinemaFunctions = {
         {
             id: 1,
             cinema: "Bugis+",
+            rating: 0,
+            UserReviews: [
+
+            ],
             movie: "Avengers Dooms Day",
 
             location: {
@@ -34,15 +38,16 @@ const cinemaFunctions = {
                     date: "10/12/2026",
                     time: "14:00",
                     seats: [
-                        { seatNo: "A1", status: "Vacant" },
-                        { seatNo: "A2", status: "Occupied" },
-                        { seatNo: "A3", status: "Vacant" },
-                        { seatNo: "A4", status: "Vacant" },
-                        { seatNo: "A5", status: "Vacant" },
-                        { seatNo: "A6", status: "Vacant" },
-                        { seatNo: "A7", status: "Vacant" },
-                        { seatNo: "A8", status: "Vacant" },
-                        { seatNo: "A9", status: "Vacant" }
+                        { seatNo: "A1", status: "Vacant", row: 1 },
+                        { seatNo: "A2", status: "Occupied", row: 1 },
+                        { seatNo: "A3", status: "Vacant", row: 1 },
+                        { seatNo: "A4", status: "Vacant", row: 1 },
+                        { seatNo: "A5", status: "Vacant", row: 1 },
+                        { seatNo: "A6", status: "Vacant", row: 1 },
+                        { seatNo: "A7", status: "Vacant", row: 1 },
+                        { seatNo: "A8", status: "Vacant", row: 1 },
+                        { seatNo: "A9", status: "Vacant", row: 1 }
+
 
                     ]
                 },
@@ -50,30 +55,30 @@ const cinemaFunctions = {
                     date: "10/12/2026",
                     time: "17:00",
                     seats: [
-                        { seatNo: "A1", status: "Vacant" },
-                        { seatNo: "A2", status: "Occupied" },
-                        { seatNo: "A3", status: "Vacant" },
-                        { seatNo: "A4", status: "Vacant" },
-                        { seatNo: "A5", status: "Vacant" },
-                        { seatNo: "A6", status: "Vacant" },
-                        { seatNo: "A7", status: "Vacant" },
-                        { seatNo: "A8", status: "Vacant" },
-                        { seatNo: "A9", status: "Vacant" }
+                        { seatNo: "A1", status: "Vacant", row: 1 },
+                        { seatNo: "A2", status: "Occupied", row: 1 },
+                        { seatNo: "A3", status: "Vacant", row: 1 },
+                        { seatNo: "A4", status: "Vacant", row: 1 },
+                        { seatNo: "A5", status: "Vacant", row: 1 },
+                        { seatNo: "A6", status: "Vacant", row: 1 },
+                        { seatNo: "A7", status: "Vacant", row: 1 },
+                        { seatNo: "A8", status: "Vacant", row: 1 },
+                        { seatNo: "A9", status: "Vacant", row: 1 }
                     ]
                 },
                 {
                     date: "11/12/2026",
                     time: "14:00",
                     seats: [
-                        { seatNo: "A1", status: "Vacant" },
-                        { seatNo: "A2", status: "Occupied" },
-                        { seatNo: "A3", status: "Vacant" },
-                        { seatNo: "A4", status: "Vacant" },
-                        { seatNo: "A5", status: "Vacant" },
-                        { seatNo: "A6", status: "Vacant" },
-                        { seatNo: "A7", status: "Vacant" },
-                        { seatNo: "A8", status: "Vacant" },
-                        { seatNo: "A9", status: "Vacant" }
+                        { seatNo: "A1", status: "Vacant", row: 1 },
+                        { seatNo: "A2", status: "Occupied", row: 1 },
+                        { seatNo: "A3", status: "Vacant", row: 1 },
+                        { seatNo: "A4", status: "Vacant", row: 1 },
+                        { seatNo: "A5", status: "Vacant", row: 1 },
+                        { seatNo: "A6", status: "Vacant", row: 1 },
+                        { seatNo: "A7", status: "Vacant", row: 1 },
+                        { seatNo: "A8", status: "Vacant", row: 1 },
+                        { seatNo: "A9", status: "Vacant", row: 1 }
                     ]
                 }
             ]
@@ -82,7 +87,10 @@ const cinemaFunctions = {
             id: 2,
             cinema: "Funan",
             movie: "Avengers Infinity War",
+            rating: 0,
+            UserReviews: [
 
+            ],
             location: {
                 lat: 1.2911,
                 lon: 103.85008,
@@ -108,45 +116,45 @@ const cinemaFunctions = {
                     date: "10/12/2026",
                     time: "14:00",
                     seats: [
-                        { seatNo: "A1", status: "Vacant" },
-                        { seatNo: "A2", status: "Occupied" },
-                        { seatNo: "A3", status: "Vacant" },
-                        { seatNo: "A4", status: "Vacant" },
-                        { seatNo: "A5", status: "Vacant" },
-                        { seatNo: "A6", status: "Vacant" },
-                        { seatNo: "A7", status: "Vacant" },
-                        { seatNo: "A8", status: "Vacant" },
-                        { seatNo: "A9", status: "Vacant" }
+                        { seatNo: "A1", status: "Vacant", row: 1 },
+                        { seatNo: "A2", status: "Occupied", row: 1 },
+                        { seatNo: "A3", status: "Vacant", row: 1 },
+                        { seatNo: "A4", status: "Vacant", row: 1 },
+                        { seatNo: "A5", status: "Vacant", row: 1 },
+                        { seatNo: "A6", status: "Vacant", row: 1 },
+                        { seatNo: "A7", status: "Vacant", row: 1 },
+                        { seatNo: "A8", status: "Vacant", row: 1 },
+                        { seatNo: "A9", status: "Vacant", row: 1 }
                     ]
                 },
                 {
                     date: "10/12/2026",
                     time: "17:00",
                     seats: [
-                        { seatNo: "A1", status: "Vacant" },
-                        { seatNo: "A2", status: "Occupied" },
-                        { seatNo: "A3", status: "Vacant" },
-                        { seatNo: "A4", status: "Vacant" },
-                        { seatNo: "A5", status: "Vacant" },
-                        { seatNo: "A6", status: "Vacant" },
-                        { seatNo: "A7", status: "Occupied" },
-                        { seatNo: "A8", status: "Vacant" },
-                        { seatNo: "A9", status: "Vacant" }
+                        { seatNo: "A1", status: "Vacant", row: 1 },
+                        { seatNo: "A2", status: "Occupied", row: 1 },
+                        { seatNo: "A3", status: "Vacant", row: 1 },
+                        { seatNo: "A4", status: "Vacant", row: 1 },
+                        { seatNo: "A5", status: "Vacant", row: 1 },
+                        { seatNo: "A6", status: "Vacant", row: 1 },
+                        { seatNo: "A7", status: "Vacant", row: 1 },
+                        { seatNo: "A8", status: "Vacant", row: 1 },
+                        { seatNo: "A9", status: "Vacant", row: 1 }
                     ]
                 },
                 {
                     date: "14/11/2026",
-                    time: "15:00",
+                    time: "21:00",
                     seats: [
-                        { seatNo: "A1", status: "Occupied" },
-                        { seatNo: "A2", status: "Occupied" },
-                        { seatNo: "A3", status: "Vacant" },
-                        { seatNo: "A4", status: "Vacant" },
-                        { seatNo: "A5", status: "Vacant" },
-                        { seatNo: "A6", status: "Vacant" },
-                        { seatNo: "A7", status: "Vacant" },
-                        { seatNo: "A8", status: "Vacant" },
-                        { seatNo: "A9", status: "Occupied" }
+                        { seatNo: "A1", status: "Vacant", row: 1 },
+                        { seatNo: "A2", status: "Occupied", row: 1 },
+                        { seatNo: "A3", status: "Vacant", row: 1 },
+                        { seatNo: "A4", status: "Vacant", row: 1 },
+                        { seatNo: "A5", status: "Vacant", row: 1 },
+                        { seatNo: "A6", status: "Vacant", row: 1 },
+                        { seatNo: "A7", status: "Vacant", row: 1 },
+                        { seatNo: "A8", status: "Vacant", row: 1 },
+                        { seatNo: "A9", status: "Vacant", row: 1 }
                     ]
                 }
             ]
@@ -154,7 +162,11 @@ const cinemaFunctions = {
         {
             id: 3,
             cinema: "Yishun",
-            movie: "Avengers Dooms Day",
+            movie: "Avengers Infinity War",
+            rating: 0,
+            UserReviews: [
+
+            ],
 
             location: {
                 lat: 1.42988,
@@ -181,45 +193,45 @@ const cinemaFunctions = {
                     date: "10/12/2026",
                     time: "14:00",
                     seats: [
-                        { seatNo: "A1", status: "Vacant" },
-                        { seatNo: "A2", status: "Occupied" },
-                        { seatNo: "A3", status: "Vacant" },
-                        { seatNo: "A4", status: "Vacant" },
-                        { seatNo: "A5", status: "Vacant" },
-                        { seatNo: "A6", status: "Vacant" },
-                        { seatNo: "A7", status: "Vacant" },
-                        { seatNo: "A8", status: "Vacant" },
-                        { seatNo: "A9", status: "Vacant" }
+                        { seatNo: "A1", status: "Vacant", row: 1 },
+                        { seatNo: "A2", status: "Occupied", row: 1 },
+                        { seatNo: "A3", status: "Vacant", row: 1 },
+                        { seatNo: "A4", status: "Vacant", row: 1 },
+                        { seatNo: "A5", status: "Vacant", row: 1 },
+                        { seatNo: "A6", status: "Vacant", row: 1 },
+                        { seatNo: "A7", status: "Vacant", row: 1 },
+                        { seatNo: "A8", status: "Vacant", row: 1 },
+                        { seatNo: "A9", status: "Vacant", row: 1 }
                     ]
                 },
                 {
                     date: "10/12/2026",
                     time: "17:00",
                     seats: [
-                        { seatNo: "A1", status: "Vacant" },
-                        { seatNo: "A2", status: "Occupied" },
-                        { seatNo: "A3", status: "Vacant" },
-                        { seatNo: "A4", status: "Vacant" },
-                        { seatNo: "A5", status: "Vacant" },
-                        { seatNo: "A6", status: "Vacant" },
-                        { seatNo: "A7", status: "Vacant" },
-                        { seatNo: "A8", status: "Vacant" },
-                        { seatNo: "A9", status: "Vacant" }
+                        { seatNo: "A1", status: "Vacant", row: 1 },
+                        { seatNo: "A2", status: "Occupied", row: 1 },
+                        { seatNo: "A3", status: "Vacant", row: 1 },
+                        { seatNo: "A4", status: "Vacant", row: 1 },
+                        { seatNo: "A5", status: "Vacant", row: 1 },
+                        { seatNo: "A6", status: "Vacant", row: 1 },
+                        { seatNo: "A7", status: "Vacant", row: 1 },
+                        { seatNo: "A8", status: "Vacant", row: 1 },
+                        { seatNo: "A9", status: "Vacant", row: 1 }
                     ]
                 },
                 {
                     date: "11/12/2026",
                     time: "14:00",
                     seats: [
-                        { seatNo: "A1", status: "Vacant" },
-                        { seatNo: "A2", status: "Occupied" },
-                        { seatNo: "A3", status: "Vacant" },
-                        { seatNo: "A4", status: "Vacant" },
-                        { seatNo: "A5", status: "Vacant" },
-                        { seatNo: "A6", status: "Vacant" },
-                        { seatNo: "A7", status: "Vacant" },
-                        { seatNo: "A8", status: "Vacant" },
-                        { seatNo: "A9", status: "Vacant" }
+                        { seatNo: "A1", status: "Vacant", row: 1 },
+                        { seatNo: "A2", status: "Occupied", row: 1 },
+                        { seatNo: "A3", status: "Vacant", row: 1 },
+                        { seatNo: "A4", status: "Vacant", row: 1 },
+                        { seatNo: "A5", status: "Vacant", row: 1 },
+                        { seatNo: "A6", status: "Vacant", row: 1 },
+                        { seatNo: "A7", status: "Vacant", row: 1 },
+                        { seatNo: "A8", status: "Vacant", row: 1 },
+                        { seatNo: "A9", status: "Vacant", row: 1 }
                     ]
                 }
             ]
@@ -229,8 +241,8 @@ const cinemaFunctions = {
         let available;
         for (let i = 0; i < this.showtime.length; i++) {
             if (
-                InsensitiveData(this.showtime[i].cinema) === InsensitiveData(cinema) &&
-                InsensitiveData(this.showtime[i].movie) === InsensitiveData(movie)
+                this.showtime[i].cinema.toLowerCase() === cinema.toLowerCase() &&
+                this.showtime[i].movie.toLowerCase() === movie.toLowerCase()
 
             ) {
                 available = this.showtime[i];
@@ -284,8 +296,8 @@ const cinemaFunctions = {
         let available;
         for (let i = 0; i < this.showtime.length; i++) {
             if (
-                InsensitiveData(this.showtime[i].cinema) === InsensitiveData(cinema) &&
-                InsensitiveData(this.showtime[i].movie) === InsensitiveData(movie)
+                this.showtime[i].cinema.toLowerCase() === cinema.toLowerCase() &&
+                this.showtime[i].movie.toLowerCase() === movie.toLowerCase()
 
             ) {
                 available = this.showtime[i];
@@ -448,7 +460,6 @@ const cinemaFunctions = {
                     Math.cos(cinemaLat) *
                     Math.sin(differenceLon / 2) ** 2;
 
-                //calculate an angle in radians using 2 values
                 let c = 2 * Math.atan2(
                     Math.sqrt(a),
                     Math.sqrt(1 - a)
@@ -496,7 +507,7 @@ const cinemaFunctions = {
                 );
 
                 let timeDifference = movieDate - currentDateTime;
-                console.log(timeDifference);
+                console.log("Before Conversion " + timeDifference);
                 let hoursDifference = timeDifference / (1000 * 60 * 60);
                 console.log(hoursDifference.toFixed(2));
 
@@ -512,7 +523,7 @@ const cinemaFunctions = {
             }
             else {
                 console.log("Cannot find Ticket!");
-                break;
+
             }
         }
         console.log(this.myBookings);
@@ -523,13 +534,13 @@ const cinemaFunctions = {
 
         //find available screening time 
 
-        let selectedScreening = [];
+        let selectedScreening = null;
 
         let available;
         for (let i = 0; i < this.showtime.length; i++) {
             if (
-                InsensitiveData(this.showtime[i].cinema) === InsensitiveData(cinema) &&
-                InsensitiveData(this.showtime[i].movie) === InsensitiveData(movie)
+                this.showtime[i].cinema.toLowerCase() === cinema.toLowerCase() &&
+                this.showtime[i].movie.toLowerCase() === movie.toLowerCase()
 
             ) {
                 available = this.showtime[i];
@@ -565,8 +576,11 @@ const cinemaFunctions = {
         for (let i = 0; i < selectedScreening.seats.length; i++) {
             if (selectedScreening.seats[i].status.toLowerCase() === "vacant") {
                 vacantSeats.push(selectedScreening.seats[i]);
+
             }
+
         }
+        console.log(vacantSeats);
         // Check if there are vacant seats
         if (vacantSeats.length <= 0) {
             console.log("No seats available for this timing!");
@@ -576,54 +590,129 @@ const cinemaFunctions = {
         // Find best seats combination
         let bestSeats = [];
 
-        if (pax <= 0 || pax > 3 || !Number.isInteger(pax)) {
-            console.log("Invalid number of passengers!");
+
+        if (pax <= 0 || !Number.isInteger(pax)) {
+            console.log("Invalid number of person!");
             return;
         }
+        for (let i = 0; i <= vacantSeats.length - pax; i++) { // e.g 4 pax and 5 vacant seats 5 -4 =1 so only loop through 1 so in inner loop next seat become 0+0,0+1, 0+2, 0+3, 
 
-        for (let i = 0; i <= vacantSeats.length - pax; i++) {
+            if (pax == 1) {
+                bestSeats.push(vacantSeats[i].seatNo);
+                break;
+            }
+            else {
+                let currentSeat = vacantSeats[i].seatNo; //e.g. A1
+                let currentSeatNo = parseInt(currentSeat.substring(1));//0,1,2,3
 
-            let consecutive = true;
+                let consecutive = true;
 
-            for (let j = 0; j < pax - 1; j++) { //must be more than 1 to run this loop 
+                for (let j = 0; j < pax; j++) { //looping based on no of people
+                    let nextSeat = vacantSeats[i + j].seatNo; // i stays the same while j is running 
+                    let nextSeatNo = parseInt(nextSeat.substring(1));
 
-                let currentSeat = vacantSeats[i + j].seatNo;  // vacantSeats[0+0] => A1
-                let nextSeat = vacantSeats[i + j + 1].seatNo; // vacantSeats[0+0+1] => vacantSeats[1] can be A3
+                    if (nextSeatNo != currentSeatNo + j) { //remains false unless next seat no not equal current seat no + j
+                        consecutive = false;
+                        break;
+                    }
+                }
 
-                let currentNo = parseInt(currentSeat.substring(1)); // e.g. A1 => 1
-                let nextNo = parseInt(nextSeat.substring(1));
-
-                if (
-                    currentSeat.substring(0, 1) !== nextSeat.substring(0, 1) || //A != B && 3 != 1+1
-                    nextNo !== currentNo + 1
-                ) {
-                    consecutive = false;
+                if (consecutive) {
+                    for (let j = 0; j < pax; j++) {
+                        bestSeats.push(vacantSeats[i + j].seatNo);
+                    }
                     break;
                 }
             }
+        }
 
-            if (consecutive) {
 
-                for (let j = 0; j < pax; j++) {
-                    bestSeats.push(vacantSeats[i + j].seatNo);
+
+        if (bestSeats.length == pax && bestSeats.length != 0) {
+            console.log("Recommended seats:", bestSeats);
+        } else {
+            console.log("No recommendations for you ");
+        }
+
+
+    },
+    findBestCinema(movie) {
+        //check on movie matches cinema
+        let cinemaSelected = [];
+        for (let i = 0; i < this.showtime.length; i++) {
+            if (movie.toLowerCase() == this.showtime[i].movie.toLowerCase()) {
+                cinemaSelected.push(this.showtime[i]);
+            }
+        }
+        console.log(cinemaSelected);
+
+
+
+        for (let i = 0; i < cinemaSelected.length; i++) {
+            currentRating = -100;
+            bestCinema = null;
+            if (currentRating < cinemaSelected[i].rating && cinemaSelected[i].rating != -1) {
+                currentRating = cinemaSelected[i].rating;
+                bestCinema = cinemaSelected[i];
+            }
+
+
+            if (bestCinema != null) {
+                console.log("No." + `${i + 1}` + ": " + bestCinema.cinema);
+                bestCinema.rating = -1;
+            }
+        }
+
+
+
+    },
+    feedback(cinema, rating, reviews) {
+
+        let selectedCinema;
+
+        for (let i = 0; i < this.showtime.length; i++) {
+
+            if (cinema.toLowerCase() === this.showtime[i].cinema.toLowerCase()) {
+
+                selectedCinema = this.showtime[i];
+
+                if (rating < 1 || rating > 5 || !Number.isInteger(rating)) {
+                    console.log("Please enter appropriate rating number!");
+                    return;
                 }
+
+                selectedCinema.UserReviews.push({
+                    ratings: rating,
+                    reason: reviews
+                });
+
+                let totalRating = 0;
+
+                for (let j = 0; j < selectedCinema.UserReviews.length; j++) {
+                    totalRating += selectedCinema.UserReviews[j].ratings;
+                }
+
+                selectedCinema.rating = totalRating / selectedCinema.UserReviews.length;
 
                 break;
             }
         }
 
-        if (bestSeats.length > 0) {
-            console.log("Recommended seats:", bestSeats);
-        } else {
-            console.log("No consecutive seats available!");
+        if (selectedCinema == null) {
+            console.log("Cinema not found!");
+            return;
+        }
+
+        for (let i = 0; i < selectedCinema.UserReviews.length; i++) {
+            console.log("Rating: " + selectedCinema.UserReviews[i].ratings + "/5");
+            console.log("Reason: " + selectedCinema.UserReviews[i].reason);
         }
 
 
-    },
+
+    }
 }
-function InsensitiveData(data) {
-    return data.trim().toLowerCase().replace(/\s+/g, "");
-}
+
 
 
 
